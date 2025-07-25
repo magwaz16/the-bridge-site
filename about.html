@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | The Bridge</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon1.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo-container">
+                <img src="imgs/IMG-20250419-WA0041-removebg-preview.png" class="logo" alt="The Bridge Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>THE BRIDGE</h1>
+            <p>
+                <strong>THE BRIDGE</strong>, we don't just connect - we empower. Founded on the belief that every entrepreneur, nonprofit, and innovator deserves a platform to thrive.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="main-section">
+        <div class="container">
+            <div class="content-section">
+                <div class="text-content">
+                    <h2>Who is <span>The Bridge</span></h2>
+                    <p>
+                        <strong>THE BRIDGE</strong> is a catalyst for growth, designed to empower startups, nonprofits, and socially driven businesses. We recognize the barriers—limited funding, fragmented networks, and missed opportunities—that hinder progress. Our platform bridges these gaps by connecting innovators with investors, mentors, and resources.
+                    </p>
+                    <p>
+                        Through curated events, conflict mediation, and strategic partnerships, we turn isolation into collaboration. Whether you're an entrepreneur seeking capital, a nonprofit chasing impact, or an investor scouting purpose-driven ventures, THE BRIDGE is your launchpad.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img src="imgs/group-wr3.jpg" alt="Team working together" class="section-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="main-section mission">
+        <div class="container">
+            <div class="content-section reverse">
+                <div class="text-content">
+                    <h2>Our Mission</h2>
+                    <p>
+                        Our mission is to provide seamless connection between retailers, non-profits, entrepreneurs & startups and consumers, benefactors, sponsors, investors & a wider and broader target audience.
+                    </p>
+                    <p>
+                        By fostering trust between startups and investors, nonprofits and benefactors, or retailers and conscious consumers, we amplify impact. Every service we offer—from funding access to conflict resolution—is designed to remove friction.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img src="imgs/altogether.jpg" alt="Our mission" class="section-image mission-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="main-section services">
+        <div class="container">
+            <div class="content-section">
+                <div class="text-content">
+                    <h2>Our Services</h2>
+                    <p>
+                        Ready to elevate your journey? Our services - from funding solutions to conflict mediation - are designed to scale with your ambitions. Discover flexible plans built for your unique needs.
+                    </p>
+                    <ul class="services-list">
+                        <li><i class="fas fa-check-circle"></i> Funding Solutions & Investor Matching</li>
+                        <li><i class="fas fa-check-circle"></i> Strategic Partnership Development</li>
+                        <li><i class="fas fa-check-circle"></i> Conflict Mediation Services</li>
+                        <li><i class="fas fa-check-circle"></i> Mentorship & Business Coaching</li>
+                    </ul>
+                    <a href="Services.html" class="cta-btn">View Our Services</a>
+                </div>
+                <div class="image-container">
+                    <img src="imgs/analysis.jpg" alt="Our services" class="section-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-section about">
+                        <div class="footer-logo-container">
+                            <img src="imgs/IMG-20250419-WA0041-removebg-preview.png" class="footer-logo" alt="The Bridge Logo">
+                        </div>
+                        <p>Empowering businesses through strategic connections and innovative solutions.</p>
+                      
+                    </div>
+                    
+                    <div class="footer-section links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="AboutUs.html">About Us</a></li>
+                            <li><a href="Services.html">Services</a></li>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section contact">
+                        <h3>Contact Us</h3>
+                        <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> 750 frederika Reitfontien gezina 
+Postal code is 0084</li>
+                            <li><i class="fas fa-phone"></i>(+27) 69 352 9800</li>
+                            <li><i class="fas fa-envelope"></i> inksphere22@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 The Bridge. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        const navLinks = document.querySelectorAll('.nav-links li');
+
+        burger.addEventListener('click', () => {
+            // Toggle Nav
+            nav.classList.toggle('active');
+            
+            // Animate Links
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = '';
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                }
+            });
+            
+            // Burger Animation
+            burger.classList.toggle('toggle');
+        });
+
+        // Close menu when clicking a link
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+                burger.classList.remove('toggle');
+                navLinks.forEach(link => {
+                    link.style.animation = '';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
